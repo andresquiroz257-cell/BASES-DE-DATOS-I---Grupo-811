@@ -1,2 +1,5 @@
 # 67139475
-INTEGRANTES: Andres Quiroz Gomez
+INTEGRANTES: 
+Andres Quiroz Gomez
+Sebastian Sepulveda
+Miguel Flores 
