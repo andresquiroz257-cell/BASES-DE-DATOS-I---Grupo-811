@@ -10,4 +10,6 @@
 ## Tarea-02 Modelo Entidad-Relación (E-R)
 Diseñar una base de datos de acuerdo al Modelo Entidad Relación (Modelo E-R).
 
-[Ver informe](tarea%202)
+[Ver informe de la Tarea 2](tarea%202)
+
+----------
