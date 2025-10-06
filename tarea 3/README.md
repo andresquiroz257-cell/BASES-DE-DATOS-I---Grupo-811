@@ -17,7 +17,7 @@ Historia Clínica Electrónica masivo.
 ### **Objetivo**
 
 Objetivo General del Proyecto
-Los estudiantes de “Base de Datos I” deben diseñar, construir, poblar, consultar y validar una
+Diseñar, construir, poblar, consultar y validar una
 base de datos robusta, flexible y segura para almacenar y monitorear la información de hospitalización
 de la Red de Salud del Departamento de Antioquia, Colombia
 
