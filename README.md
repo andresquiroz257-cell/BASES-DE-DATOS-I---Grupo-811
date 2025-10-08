@@ -2,8 +2,8 @@
 **Grupo: 5**
 
 **Integrantes:**
--
--
+- **Sebastian Sepulveda Quintero**
+- **Andrés Santiago Quiroz Gomez**  
 -
 
 --------
