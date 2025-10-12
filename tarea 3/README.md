@@ -1,6 +1,10 @@
-## TIA 03 | Grupo 05
+## Base de Datos 1 | Grupo 811 | TIA 03 | Grupo 05
+
+### Institución Universitaria Pascual Bravo
 ------
-### **Contexto:**
+### Arquitectura de una base de datos para el servicio de Hospitalización del Sistema de Salud del Departamento de Antioquia, Colombia
+------
+###  **Contexto:**
 
 **Arquitectura de una base de datos para el servicio de Hospitalización del
 Sistema de Salud del Departamento de Antioquia, Colombia.**  
@@ -31,4 +35,12 @@ Para lograr esto, deben realizar las siguientes fases:
 ● Fase 4: Construir el Modelo Físico  
 ● Fase 5: Poblar la base de datos  
 ● Fase 6: Construir el sistema de consultas solicitado  
-● Fase 7: Validar la Base de Datos con las propiedades ACID  
+● Fase 7: Validar la Base de Datos con las propiedades ACID 
+
+
+## ● Primera Entrega (TIA3- PA - Parte 0). 
+
+○ Inventario de Entidades y Relaciones  
+○ Diagrama de Entidad Relación (Tipo Chen) sin atributos  
+○ Proceso de Normaiizaciòn en Plantilla Hoja de Cálculo   
+○ Diccionario de Datos Genérico  
