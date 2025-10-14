@@ -1,6 +1,8 @@
  # Base de Datos 1 | Grupo 811  | ET0057
 
- ### Institución Universitaria Pascual Bravo  
+ ## Institución Universitaria Pascual Bravo  
+ ### Tecnologia De Desarrollo De Software
+ ### Docente: Jaime E. Soto U.
 -----
  
 ***Grupo: 05*** 
