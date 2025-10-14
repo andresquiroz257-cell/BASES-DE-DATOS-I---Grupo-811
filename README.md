@@ -8,7 +8,7 @@
 **Integrantes:**
 - ***Sebastian Sepulveda Quintero***
 - ***Andrés Santiago Quiroz Gomez***
--
+- ***Emanuel Ceballos Mesa***
 ------
 ### 📑 Proposito del repo  
 Este repositorio tiene como objetivo plasmar cada una de las tareas practicas que se desarrollen en el transcurso de la materia *Base De Datos l*  
