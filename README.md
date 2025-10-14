@@ -17,7 +17,7 @@ Este repositorio tiene como objetivo plasmar cada una de las tareas practicas qu
 cada trabajo estara dentro de las carpetas (2, 3, 5, 6), dentro de cada una habra un Readme.md que tendra toda la informacion correspondiente, asi como en este texto mas abajo estaran cada trabajo con un resumen corto como contexto.
 
 --------
-## Tarea-02 Modelo Entidad-Relación (E-R)
+## 📍 Tarea-02 Modelo Entidad-Relación (E-R)
 ### Propósito
   Diseñar una base de datos de acuerdo al Modelo Entidad Relación (Modelo E-R).
 
@@ -38,6 +38,29 @@ cada trabajo estara dentro de las carpetas (2, 3, 5, 6), dentro de cada una habr
 13. Elaborar conclusiones individuales
 14. Elaborar un video de sustentación.
 
-### 👉📂[Ver informe de la Tarea 2](tarea%202) 
+**La carpeta contiene:**
+- El informe del proceso
+- El enlace al video
+- El Readme.md para mas informacion
+### 👉📂 [Ver informe de la Tarea 2](tarea%202) 
 
 ----------
+
+## 📍 Tarea-03 Modelo Lógico
+### Proposito
+diseñar, construir, poblar, consultar y validar una base de datos robusta, flexible y segura para almacenar y monitorear la información de hospitalización de la Red de Salud del Departamento de Antioquia, Colombia
+### Actividades 
+1. Inventario de Entidades y Relaciones
+2. Diagrama de Entidad Relación (Tipo Chen)  sin atributos
+3. Proceso de Normaiizaciòn en Plantilla Hoja de Cálculo
+4. Diccionario de Datos Genérico
+
+**La carpeta contiene:**
+- El informe del proceso
+- El archivo de excel que contiene las tablas
+- El link del video de sustentacion
+- El Readme.md para mas informacion
+### 👉📂 [Ver informe de la Tarea 3](tarea%203)
+
+
+
