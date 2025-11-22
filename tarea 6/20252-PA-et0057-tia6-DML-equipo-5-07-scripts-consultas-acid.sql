@@ -37,9 +37,13 @@ INSERT INTO hospitalizaciones (medico_paciente_id, fecha_hora, tipo)
 VALUES (5, '2024-11-20 10:30:00', 'urgencia')
 RETURNING hospitalizacion_id;  -- Supongamos que retorna ID 111
 
+SELECT 
+	MAX(hospitalizacion_id) --ultima id generada
+	from hospitalizaciones;
+
 -- Insertar diagnóstico asociado
 INSERT INTO diagnostico_paciente (hospitalizacion_id, diag_id, descripcion)
-VALUES (111, 3, 'Paciente presenta dolor abdominal agudo');
+VALUES (111, 3, 'Paciente presenta dolor abdominal agudo');--no funciona si la fk hospitalizacion_id no es la misma de arriba
 
 COMMIT;
 
@@ -89,8 +93,8 @@ BEGIN
     END IF;
 END $$;
 
-SELECT * FROM  paciente
-ORDER BY id_paciente ASC 
+SELECT id_paciente, hospital_id FROM  paciente
+where id_paciente = '24';
 
 
 --UPDATE #2: Actualizar múltiples teléfonos con rollback condicional
@@ -173,8 +177,7 @@ DELETE FROM paciente
 	WHERE id_paciente = 11;
 COMMIT;
 
-	SELECT * FROM  paciente
-ORDER BY id_paciente ASC 
+	SELECT id_paciente  FROM paciente where id_paciente = 11;
 
 
 --DELETE #2: Eliminar hospitalizaciones antiguas con límite
@@ -216,11 +219,11 @@ BEGIN
 -- Intentar eliminar enfermeras inactivas
 DELETE FROM enfermera_paciente
 WHERE enfermera_id IN (
-    SELECT enfermera_id FROM enfermera WHERE estado = TRUE
+    SELECT enfermera_id FROM enfermera WHERE estado = FALSE
 );
 
 DELETE FROM enfermera
-WHERE estado = TRUE;
+WHERE estado = FALSE;
 
 -- Verificar eliminaciones
  
