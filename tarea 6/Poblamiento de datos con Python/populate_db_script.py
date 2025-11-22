@@ -3,6 +3,9 @@ from faker import Faker
 import random
 from datetime import datetime, timedelta
 
+#INSTALAR DEPENDENCIAS en la terminal
+#pip install psycopg2-binary faker
+
 # =============================================
 # CONFIGURACIÓN DE CONEXIÓN A POSTGRESQL
 # =============================================
