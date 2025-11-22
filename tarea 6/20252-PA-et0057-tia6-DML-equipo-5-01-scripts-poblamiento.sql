@@ -15,6 +15,27 @@
 
 BEGIN;
 
+--registro erroneo de paciente
+INSERT INTO paciente (nombre, primer_apellido, segundo_apellido, cedula,
+    fecha_nacimiento, sexo, ciudad_id, eps_id, hospital_id,
+    tel1, tel2, email
+) VALUES (
+    'Juan', 'Pérez', 'Gómez', '99999999',
+    '1990-05-10', 'M', 
+    9999,        --ciudad_id inexistente - viola FK
+    1,
+    1,
+    '3001234567', '3009876543', 'juan@example.com'
+);
+
+--registro erroneo de medico
+INSERT INTO Medico (idMedico, nombre, especialidad, numeroLicencia, idHospital)
+VALUES (1, NULL, 'Cardiología', 'LIC-123', 9999);
+
+--registro erroneo de enfermera
+INSERT INTO enfermera (codigo_profesional, nombre, telefono, hospital_id, sexo, estado)
+VALUES ('ENF-001', NULL, '3001234567', 9999, 'X', TRUE);
+
 -- =============================================
 -- 1. POBLAR CIUDAD_PAIS (15 registros - Solo Antioquia)
 -- =============================================
