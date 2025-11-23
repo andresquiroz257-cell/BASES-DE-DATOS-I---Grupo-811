@@ -65,7 +65,7 @@ La Secretaría de Salud de Antioquia requiere el desarrollo de un sistema que in
  
 **1. Poblamiento (INSERT)**   
 
-   ● Insertar datos simulados en todas las tablas 👉📂 [Con Python](Poblamiento%20de%datos%con%20Python)    
+   ● Insertar datos simulados en todas las tablas 👉📂 [Con Python](Poblamiento%20de%20datos%20con%20Python)    
    ● Mantener coherencia entre FK, PK y restricciones.     
    ● Garantizar integridad referencial.     
 
